@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0">
+  <info>
+    <title>Land (Modified Numeric)</title>
+    <id>http://www.zotero.org/styles/land-modified-numeric</id>
+    <link href="http://www.zotero.org/styles/land-modified-numeric" rel="self"/>
+    <category citation-format="numeric"/>
+    <category field="science"/>
+    <updated>2025-10-26T00:00:00+00:00</updated>
+  </info>
+
+  <!-- Citation formatting -->
+  <citation>
+    <layout prefix="[" suffix="]" delimiter=", " collapse="citation-number">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+
+  <!-- Bibliography formatting -->
+  <bibliography>
+    <layout hanging-indent="true" delimiter=". ">
+      <text variable="citation-number" prefix="[" suffix="]. "/>
+      <names variable="author">
+        <name and="text" initialize-with=". "/>
+      </names>
+      <text variable="title" suffix=". "/>
+      <text variable="container-title" suffix=". "/>
+      <text variable="volume" prefix="Vol. " suffix=", "/>
+      <text variable="issue" prefix="No. " suffix=", "/>
+      <text variable="page" prefix="pp. " suffix=". "/>
+      <date variable="issued" prefix="(" suffix=")."/>
+    </layout>
+  </bibliography>
+</style>
